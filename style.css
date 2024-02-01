@@ -1,7 +1,8 @@
 .body{
 
-    margin: 0;
-    padding: 0;
+    margin: none;
+    padding: none;
+    
 }
 
 
@@ -15,6 +16,7 @@
   padding: 50px 50px;
   z-index: 1;
   width: 100%;
+  
 
 }
 
@@ -22,21 +24,45 @@
     width: 50px;
     height: 50px;
     
+    
+}
+
+.botoesmenu{
+    justify-content:flex-end;
+}
+.botoesmenu button{
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;     
+    gap: 3%;
+
+}
+
+.botao1{
+    background:none;
+    color: white;
+    width: 10VW;
+    height: 7VH;
+    border-radius: 5px;
 }
 
 
-.botoesmenu button{
-
-        display: inline-block;
+.botao2{
+    background-color: white;
+    color:#191919;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;      
+    
 
 }
 
   .titulodosite{
     display: flex;
     gap: 15px;
+    position: relative;
   }
 
 .cabeçalho{
@@ -47,9 +73,7 @@
 .cabeçalho img{
     width: 100%;
     height: 90vh;
-    border: none;
     display: block;
-    overflow: hidden;
   
 
 }
@@ -65,68 +89,119 @@
 .caixa
 
 { 
-    text-align: center;
-  
-  
+  text-align: center;
   margin-top: -400px;
   position: relative;
   
 
 }
-
 .caixa button{
-    background-color: #396d3a;
-    color: white;
-    width: 10VW;
-    height: 7VH;
-    border-radius: 5px;
+    
+    background-color: #eb1700;
+}
+
+.botaocapa2{
+    position: relative;
+    width: 250px ;
+        background: none;
+        text-decoration: underline;
+        border: none;
+        color: white;
+        align-items: center;
+        margin-left: 35%;
+        margin-top: 5%;
+        font-size: 18px;
+
+
 }
 
 .caixa h1{
  color: white;
- top: 30px;
+ margin-top: 0%;
+ font-size: 50px;
  
 }
 
-.caixa input{
-    height: 40px;
-    width: 250px;
+.input{
+    display: flex;
+    align-items: center;
+    display: flex;
+    position:absolute;
+    width: 50%;
+    margin-left: 38%;
 }
+
+.input input{
+    
+    height: 6vh;
+    width: 25vw;
+    color: white;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    margin-top: -500px;
+}
+
+.input img{
+    gap: 5%;
+    width: 5%;
+    height: 35px;
+    margin-top: -500px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 45%;
+    gap: 10px;
+
+
+}
+
 
 .topicos{
     margin-top: 20%;
     display: flex;
-    margin-left: 15%;
+    margin-left: 20%;
     width: 70%;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
     
 }
 
 .topico1{
     font-size: 20px;
-    color: #3A633B;
+    color: black;
     gap: 5%;
-    width: 500px;
+    width: 400px;
+    
     
 }
 
+.topico1 h2{
+    font-size: 20px;
+}
+
+.topico1 p{
+     font-size: 17px;
+     width: 210px;
+
+}
 
 .topicobotao{
     text-align: center;
-    color: red;
+    color: #eb1700;
     border: none;
     background-color: white;
 }
 
 .topico1 img{
-width: 100px;
-height: 100px;
+width: 90px;
+height: 90px;
 margin-left: 23px;
 justify-content: center;
 }
 
-
+.icone1 img {
+    margin-bottom: -10%;
+}
 
 .galeria1{
     width: 80%;
@@ -134,12 +209,13 @@ justify-content: center;
     margin-left: 110px;
     margin-right: 80px;
     
+    
 
     
 }    
 
 .galeria1 h2{
-  color: black;
+  color: #191919;
 }
 
 .textoP {
@@ -151,12 +227,23 @@ justify-content: center;
     border-bottom: -60%;
 }
 
+.botao1{
+    background-color: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    
+
+}
+
+
+
 .texto1{
     width: 50%;
 }
 
 .texto1 button{
-    background-color: red;
+    background-color: #eb1700;
     color: white;
     width: 100px;
     height: 30px;
@@ -169,10 +256,9 @@ justify-content: center;
    
     display: flex;
     background-color:#fff0ed ;
+    
    
-    border-right: 50px;
-    border-left: 70px;
-  
+   
 }
 
 .galeria2 img{
@@ -186,7 +272,7 @@ justify-content: center;
 }
 
 .galeria2 button{
-    background-color: red;
+    background-color: #eb1700;
     color: white;
     width: 135px;
     height: 30px;
@@ -204,8 +290,8 @@ justify-content: center;
 }
 
 .rodape{
-    background-color: black;
-    color: white;
+    background-color: #191919;
+    color: #b9b9b9;
     display: flex;
     height: 50%;
     width: 100%;
@@ -217,6 +303,6 @@ justify-content: center;
 
 .rodape button{
     border: none;
-    background-color: black;
-    color: white;
+    background-color: #191919;
+    color: #b9b9b9;
 }
